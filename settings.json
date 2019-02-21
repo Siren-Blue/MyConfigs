@@ -1,0 +1,9 @@
+{
+    "python.jediEnabled": false,
+    "workbench.colorTheme": "Facebook",
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true
+}

@@ -1,9 +1,63 @@
 {
     "python.jediEnabled": false,
-    "workbench.colorTheme": "Facebook",
+    "workbench.colorTheme": "Iceberg",
     "editor.wordWrap": "on",
     "git.autofetch": true,
     "workbench.iconTheme": "material-icon-theme",
     "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": true
+    "editor.renderControlCharacters": true,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "explorer.confirmDelete": false,
+    "breadcrumbs.enabled": true,
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggestSelection": "first",
+    "git.enableSmartCommit": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+
+    //latex-workshop
+    "latex-workshop.latex.tools": [
+	    {
+	        "name": "xelatex",
+	        "command": "xelatex",
+	        "args": [
+	          "-synctex=1",
+	          "-interaction=nonstopmode",
+	          "-file-line-error",
+	          "%DOC%"
+        	]
+        },
+		{
+	        "name": "pdflatex",
+	        "command": "pdflatex",
+	        "args": [
+	          "-synctex=1",
+	          "-interaction=nonstopmode",
+	          "-file-line-error",
+	          "%DOC%"
+	        ]
+	    },
+	    {
+	        "name": "bibtex",
+	        "command": "bibtex",
+	        "args": [
+	          "%DOCFILE%"
+	    	]
+	    }
+    ],
+    
+    "latex-workshop.latex.recipes": [
+        {
+          "name": "pdflatex -> bibtex -> pdflatex*2",
+          "tools": [
+            "pdflatex",
+            "bibtex",
+            "pdflatex",
+            "pdflatex"
+          ]
+        },
+        
+    ],
 }

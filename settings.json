@@ -1,9 +1,10 @@
 {
-    "python.jediEnabled": false,
-    "workbench.colorTheme": "Iceberg",
+    "files.autoSave": "afterDelay",
+    "python.insidersChannel": "weekly",
+    "workbench.colorTheme": "Quiet Light",
     "editor.wordWrap": "on",
     "git.autofetch": true,
-    "workbench.iconTheme": "material-icon-theme",
+
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.fontSize": 16,
@@ -50,6 +51,12 @@
     
     "latex-workshop.latex.recipes": [
         {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
           "name": "pdflatex -> bibtex -> pdflatex*2",
           "tools": [
             "pdflatex",
@@ -60,4 +67,7 @@
         },
         
     ],
+    "latex-workshop.bibtex-format.tab": "4 spaces",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.recipe.default": "lastUsed",
 }

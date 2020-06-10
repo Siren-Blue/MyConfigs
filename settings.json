@@ -1,14 +1,12 @@
 {
-    "files.autoSave": "afterDelay",
-    "python.insidersChannel": "weekly",
+    "python.jediEnabled": false,
     "workbench.colorTheme": "Quiet Light",
     "editor.wordWrap": "on",
     "git.autofetch": true,
-
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
-    "editor.fontSize": 16,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Comic Sans MS",
     "explorer.confirmDelete": false,
     "breadcrumbs.enabled": true,
     "emmet.triggerExpansionOnTab": true,
@@ -17,6 +15,9 @@
     "git.enableSmartCommit": true,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
+    "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 1,
 
     //latex-workshop
     "latex-workshop.latex.tools": [
@@ -51,10 +52,10 @@
     
     "latex-workshop.latex.recipes": [
         {
-            "name": "pdflatex",
-            "tools": [
-                "pdflatex"
-            ]
+          "name": "pdflatex",
+          "tools": [
+            "pdflatex"
+          ]
         },
         {
           "name": "pdflatex -> bibtex -> pdflatex*2",
@@ -65,9 +66,30 @@
             "pdflatex"
           ]
         },
-        
+        {
+          "name": "xelatex",
+          "tools": [
+            "xelatex"
+          ]
+        }
     ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "editor.suggestFontSize": 16,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "remote.SSH.remotePlatform": {
+      "146.148.53.109": "linux"
+    },
     "latex-workshop.bibtex-format.tab": "4 spaces",
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.recipe.default": "lastUsed",
+    "git.confirmSync": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.codeActionsOnSave": null,
+    "files.associations": {
+      
+    },
 }
